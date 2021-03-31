@@ -1,0 +1,315 @@
+html {
+    font-size: 16px;
+}
+
+/* STUSSI */
+
+header {
+    height: 698px;
+    
+    background-image: url(./images/Layer161.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    margin-bottom: 60px;
+    color: white;
+}
+
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.row {
+    margin-left: -40px;
+    margin-right: -40px;
+}
+
+.row::after {
+    clear: both;
+}
+
+.logo {
+    float: left;
+  
+}
+
+.menu {
+    float: right;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.menu a:hover {
+    color: red;
+}
+
+.text-center {
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 315px;
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 18px;
+    margin-top: 5px;
+}
+
+header p {
+    color: red;
+    word-spacing: 6px;
+    letter-spacing: 6px;
+    font-weight: bold;
+    font-size: 1.3em;
+    padding-top: 25px;
+}
+
+.str img {
+    width: 134px;
+    height: 69px;
+}
+
+.str img {
+    margin-top: 100px;
+}
+
+.str .text-center {
+    padding-top: 100px;
+}
+
+/* MODUL */
+
+
+
+.grid-container{
+    max-width: 1326px;
+    margin-top: 60px;
+    display: grid;
+    grid-gap: 60px;
+    margin: auto;
+    /* grid-template-columns: repeat(aut0-fill, minmax(402px,1fr)); */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 263px 263px 426px;
+    /* grid-auto-flow: row; */
+    /* grid-template-areas:
+    "gourmet gourmet carhartt"
+    "gourmet gourmet adidas"
+    "10deep palace tech pack"; */
+}
+
+.box-init1 {
+    background: url(./images/Layer221.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 864px;
+    height: 586px;
+}
+.box-init2 {
+    background: url(./images/Layer21.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 402px;
+    height: 263px;
+}
+.box-init3 {
+    background: url(./images/Layer25.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 623px;
+    height: 263px;
+}
+.box-init4 {
+    background: url(./images/Layer31.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 402px;
+    height: 526px;
+}
+.box-init5 {
+    background: url(./images/Layer29.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 402px;
+    height: 526px;
+}
+.box-init6 {
+    background: url(./images/Layer27.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 402px;
+    height: 526px;
+}
+
+
+.lable {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    margin-left: 50px;
+}
+.lable1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+    margin-left: 50px;
+}
+.lable2 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 280px;
+    margin-left: 50px;
+}
+.lable3 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+/* .item-a{
+    grid-area: gourmet;
+}
+.item-b{
+    grid-area: carhartt;
+}
+.item-c{
+    grid-area: adidas;
+}
+.item-d{
+    grid-area:10deep;
+}
+.item-e{
+    grid-area:palace;
+}
+.item-f{
+    grid-area:tech pack;   
+
+} */
+.box-init1_img{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.box-init2_img{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.box-init3_img{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.box-init4_img{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.box-init5_img{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.box-init6_img{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+/* INSTAGRAM */
+
+.instagram {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 160px;
+      
+}
+.instagram>div{
+    padding: 0px;
+    margin-bottom: -5px;
+
+}
+.row1{
+    color: white;
+    position: relative;
+    margin-top: -58vh;
+    margin-left: 400px;
+}
+.row1>p{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.row1>h1{
+    font-size: 40px;
+    letter-spacing: 15px;
+    
+    
+}
+
+
+
+
+/* FOOTER */
+footer{
+    height: 150px;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 150px;
+}
+
+
+.list ul>li{  
+    display: inline;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: bold;
+}
+.list1 {
+   
+    padding-left: 30em;
+}
+
+.list1 ul>li{    
+   
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+/* @media screen and (max-width: 600px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    .header{      
+        min-width: 100%;
+        min-height: 100%;
+        
+    }
+    .stussi {
+        width: 100%;
+        height: 100%;
+    }
+} */
